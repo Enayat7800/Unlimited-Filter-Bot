@@ -4,23 +4,23 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6078348705:AAFQgkwjl825xkOJbPEH-QkaK5v8GufJXJk")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID",28150346))
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "426f0d0a1da02dea8fb71cb0bd3ab7e1")
     
     
     # Database URL from https://cloud.mongodb.com/
-    DATABASE_URI = os.environ.get("DATABASE_URI", "")
+    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://inayatalibarkaat:enayatalibarkaat@cluster0.1gt1a4m.mongodb.net/?retryWrites=true&w=majority")
 
 
     # Your database name from mongoDB
-    DATABASE_NAME = str(os.environ.get("DATABASE_NAME", "Cluster0"))
+    DATABASE_NAME = str(os.environ.get("DATABASE_NAME", "Cluster0.1"))
 
 
     # ID of users that can use the bot commands
